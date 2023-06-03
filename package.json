@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx live-server public --host=0.0.0.0 --port=4200",
+    "build": "npx tailwindcss build -i css/tailwind.css -o public/css/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
